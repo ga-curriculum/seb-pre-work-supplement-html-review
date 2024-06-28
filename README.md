@@ -49,7 +49,7 @@ Topic #3
       </g>
     </svg>
   </span>
-  <span> Download Study Guide</span>
+  <span>Download Study Guide</span>
 </a>
 
 ---

@@ -2,28 +2,18 @@
 
 <h1 class="slide-header">HTML Review</h1>
 
-<span id=time-estimate class="color-grey-500">tktk mins</span>
-
-<p id="lesson-description">In this lesson you'll learn tktk</p>
+<span id=time-estimate class="color-grey-500">60 mins</span>
 
 <h5 id="topics-header" class="color-grey-500">Topics</h5>
 
-tktk Topic #1
-
-<hr>
-
-tktk Topic #2
-
-<hr>
-
-tktk Topic #3
+HTML Elements
 
 <hr>
 
 <a 
-  href="tktk"
+  href="https://ga-create-api.s3.amazonaws.com/studyguides/html-review-c29bb0.pdf"
   target="_blank"
-  download="tktk-file-name"
+  download="HTML-review.pdf"
   class="ant-btn"
   data-trackable="true"
   data-track-category="study guide"
@@ -58,10 +48,42 @@ tktk Topic #3
 <p>By the end of this lesson, you'll be able to:</p>
 
 <ul>
-  <li>tktk objvective #1</li>
-  <li>tktk objvective #2</li>
-  <li>tktk objvective #3</li>
+  <li>Use HTML to create content for webpages.</li>
+  <li>Apply attributes to HTML elements.</li>
+  <li>Describe and create relationships between HTML elements.</li>
 </ul>
+
+---
+
+<h1 class="slide-header">What is HTML?</h1>
+
+**HTML (Hypertext Markup Language)** is the building material of the web! Every webpage uses HTML as its building blocks — each image, video, and piece of text is constructed with HTML elements.</p>
+
+To understand how we get these to show up on our webpage, let’s first look at the HTML boilerplate surrounding the actual content of a page.
+
+---
+
+<h1 class="slide-header">The Boilerplate</h1>
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+
+  </body>
+</html>
+```
+
+The code block above is the default setup for an HTML page. Let’s break this down:
+
+- `<!DOCTYPE html>` tells the computer that this is an HTML document and should be interpreted as such.
+- `<html>` (the opening tag) indicates the beginning of the page, while `</html>` (the closing tag) indicates the end of the page.
+- `<head>` is the section of the page where website information such as the title can be placed.
+- `<title>` is the name that shows up in your web browser’s tab.
+- `<body>` is the section of the page where we can write text, images, and videos. For our HTML exercises, we'll always be working within the `<body>` tag.
 
 ---
 

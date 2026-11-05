@@ -11,7 +11,7 @@ HTML Elements
 <hr>
 
 <a 
-  href="https://ga-create-api.s3.amazonaws.com/studyguides/html-review-c29bb0.pdf"
+  href="assets/html-review-c29bb0.pdf"
   target="_blank"
   download="HTML-review.pdf"
   class="ant-btn"
